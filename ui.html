@@ -19,12 +19,9 @@
                                 // Username variable/prompt
                                 var username = window.prompt('Choose a Username!');
                                     // checks if username has been entered
-                                    if (username != null) {
+                                    if (username != null && username != '') {
                                         // if a username has been entered it alerts a welcome
                                         alert('Username is' + ' ' + username);
-                                    }
-                                    else if (username == ' ') {
-                                        alert('Enter A Username...');
                                     }
                                     // if no username is present it alerts an error
                                     else {
