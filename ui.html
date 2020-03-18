@@ -28,7 +28,21 @@
                         // forces user to choose Username
                             while (username == null) {
                                 window.prompt('Choose a Username!');
-                            }                                             
+                            }
+                            
+                                    // array learn more
+                                    var options = ['Coderpen', 'Codecademy', 'W3Schools'];
+                                    var choice = window.prompt('Would you like to learn about Coderpen, Codecademy, or W3Schools?');
+                                        // gives message based off choice
+                                        if (choice == options[0]) {
+                                            alert('Coderpen is a great tool to practice web development! Giving a free ide to play around with!');
+                                        }
+                                        else if (choice == options[1]) {
+                                            alert('Codecademy is a great learning tool with courses on almost every subject!');
+                                        }
+                                        else if (choice == options[2]) {
+                                            alert('W3Schools is a great learning base to learn all about different functions for web development!');
+                                        }
 </script>
 <!-- Ending Declare -->
 </body>
