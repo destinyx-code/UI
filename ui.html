@@ -14,6 +14,39 @@
     <p> <font face="verdana" color ="white"> There are many great tools to learn about User Interfaces, We here at UI recommend three main ones, CoderPen, Codecademy, and W3Schools. </p> </font>
             <!-- Username Script -->
             <script>
+                // Username variable/prompt
+                var username = window.prompt('Choose a Username!');
+                    // checks if username has been entered
+                    if (username != null && username != '') {
+                        // if a username has been entered it alerts a welcome
+                        alert('Username is' + ' ' + username);
+                    }
+                    // if no username is present it alerts an error
+                    else {
+                        alert('ERROR: No Username Entered');
+                    }
+                        
+                                //new feature 
+                                var options = ['Coderpen', 'Codecademy', 'W3Schools'];
+                                var choice = window.prompt('Would you like to learn about Coderpen, Codecademy, or W3Schools?');
+                                    
+                 				if (choice == choice[0] && != null) {
+							alert('Coderpen is a great web development tool to help you practice web development in a mock ide online!');
+						}
+						else if (choice == choice[1] && != null) {
+							alert('Codecademy is a comprehensive online programming tool with courses on almost any programming topic!');
+						}
+						else if (choice == choice[2] && != null) {
+							alert('W3Schools is a great tool with lessons on almost any function in web development!');
+						}
+					    	else {
+							alert('Error: Either not a choice, or no input entered.');
+						}
+                                        
+                                    
+                                       
+                                        
+</script>
                 
 <!-- Ending Declare -->
 </body>
